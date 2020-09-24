@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZWallet Input Amount Bank</title>
+
+    <!-- Link Icom -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="assets/css/style1.css">
+
+    <!-- link CSS Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Link Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <!-- Header Nav -->
+    <div class="header-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p class="h-zwallet">Zwallet</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="assets/img/Rectangle 25.png" class="rounded float-left h-img-nav h-nav-right">
+                    <div class="h-nav-bell h-nav-right">
+                        <img src="assets/img/bell1.png" class="img-fluid" alt="Icon Notification">
+                    </div>
+                    <div class="h-name h-nav-right">
+                        <p class="name">Robert Chandler</p>
+                        <p class="no">+62 8139 3877 7946</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Nav -->
+
+    <!-- Start Amount -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 d-home">
+                <div class="h-home dashboard">
+                    <img class="h-prof img-fluid" src="assets/img/grid.png">
+                    <a href="dashboard.html" class="h-dashboard">Dashboard</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/arrow-up.png">
+                    <a href="transfer.html" class="h-dashboard">Transfer</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/plus.png">
+                    <a href="top-up.html" class="h-dashboard">Top Up</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/user.png">
+                    <a href="profile.html" class="h-dashboard">Profile</a>
+                </div>
+                <div class="h-homee">
+                    <img class="h-prof img-fluid" src="assets/img/log-out.png">
+                    <a href="index.html" class="h-dashboard">Logout</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 h-AllAmount">
+                <form action="" method="post">
+                    <div class="h-tmoney">
+                        <p class="transfer-money">Transfer Money</p>
+                    </div>
+                    <table class="table-2 table table-borderless table-responsive pl-4 py-2 bg">
+                        <tr class="table-row">
+                            <th scope="row" style="text-align: left">
+                                <img class="align-self-center" src="assets/img/1.png" alt="Samuel Suhi">
+                            </th>
+                            <td style="width: 100%">
+                                <p><b> Samuel Suhi </b></p>
+                                <p class="number">+62 813-8492-9994</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- Container -->
+                    <div class="container">
+                        <p id="type">
+                            Type the amount you want to transfer and then<br /> press continue to the next steps
+                        </p>
+                    </div>
+                    <div class="container">
+                        <input type="text" name="Amount" id="amount" placeholder="0.00" />
+                    </div>
+
+                    <!-- Table -->
+                    <table class="table table-borderless table-responsive mx-auto d-flex justify-content-center">
+                        <tr>
+                            <td>
+                                <p><b> Rp120.000 Available</b></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- End Table -->
+
+                    <div class="container">
+                        <input type="text" id="note" placeholder="Add some notes">
+                    </div>
+                    <!-- End Container -->
+
+                    <!-- Button -->
+                    <div class="container py-4">
+                        <button type="submit" class="nav justify-content-center bg-link ml-auto mt-5" id="continue">Continue</button>
+                    </div>
+                    <!-- End Button -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Input Amount Bank -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <nav class="navbar navbar mt-3" id="footer-bar">
+                <p class="nav-link" id="reserved">
+                    2020 Zwallet. All right reserved.
+                </p>
+
+                <p class="nav-link ml-auto contact1 bottom-footer contact1">
+                    +62 5637 8882 9901
+                </p>
+
+                <p class="nav-link contact1 bottom-footer contact1">
+                    contact@zwallet.com
+                </p>
+            </nav>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Script JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

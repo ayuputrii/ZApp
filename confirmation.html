@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZWallet Confirmation</title>
+
+    <!-- Link Icom -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="assets/css/style1.css">
+
+    <!-- link CSS Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Link Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+
+    <!-- Header Nav -->
+    <div class="header-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p class="h-zwallet">Zwallet</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="assets/img/Rectangle 25.png" class="rounded float-left h-img-nav h-nav-right">
+                    <div class="h-nav-bell h-nav-right">
+                        <img src="assets/img/bell1.png" class="img-fluid" alt="Icon Notification">
+                    </div>
+                    <div class="h-name h-nav-right">
+                        <p class="name">Robert Chandler</p>
+                        <p class="no">+62 8139 3877 7946</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Nav -->
+
+    <!-- Start Confirmation -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 d-home">
+                <div class="h-home dashboard">
+                    <img class="h-prof img-fluid" src="assets/img/grid.png">
+                    <a href="dashboard.html" class="h-dashboard">Dashboard</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/arrow-up.png">
+                    <a href="transfer.html" class="h-dashboard">Transfer</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/plus.png">
+                    <a href="top-up.html" class="h-dashboard">Top Up</a>
+                </div>
+                <div class="h-home">
+                    <img class="h-prof img-fluid" src="assets/img/user.png">
+                    <a href="profile.html" class="h-dashboard">Profile</a>
+                </div>
+                <div class="h-homee">
+                    <img class="h-prof img-fluid" src="assets/img/log-out.png">
+                    <a href="index.html" class="h-dashboard">Logout</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 d-confirm">
+                <div class="s-confirm">
+                    <p class="s-transfer">Transfer To </p>
+                </div>
+                <div class="card1 col-md-11">
+                    <img class="c-Pconfirm img-fluid" alt="profile img" src="assets/img/1.png">
+                    <p class="c-Name" style="font-family: Nunito Sans; font-weight:bold;">Samuel Suhi</p>
+                    <p class="c-No" style="font-family: Nunito Sans; font-weight:normal;">+62 813-8492-9994</p>
+                </div>
+                <div class="s-details">
+                    <p class="s-det">Details</p>
+                </div>
+                <div class="card1 col-md-11">
+                    <p class="c-name">Amount</p>
+                    <p class="c-status">Rp100.000</p>
+                </div>
+                <div class="card1 col-md-11">
+                    <p class="c-name">Ballance Left</p>
+                    <p class="c-status">Rp20.000</p>
+                </div>
+                <div class="card1 col-md-11">
+                    <p class="c-name">Date & Time</p>
+                    <p class="c-status">May 11, 2020 - 12.20</p>
+                </div>
+                <div class="card1 col-md-11">
+                    <p class="c-name">Notes</p>
+                    <p class="c-status">For buying some socks</p>
+                </div>
+                <div class="container py-4">
+                    <button class="nav justify-content-center bg-link ml-auto mt-5" id="continue" data-toggle="modal" data-target="#continues">Continue</button>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+
+        <!--Start Modal-->
+        <div class="modal fade" id="continues" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div id="modal" class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content rounded-0">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <h5 class="heading pin" id="exampleModalCenterTitle">Enter Pin to Transfer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!--Body-->
+                    <form action="success.html">
+                        <div class="modal-body">
+                            <p class="heading pin2">Enter your 6 digits PIN for confirmation <br> to continue transferring money.</p>
+                            <div class="form-row d-flex justify-content-center">
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                                <div class="form-group col-2">
+                                    <input id="btn-border" type="text" class="form-control border-primary text">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Footer-->
+                        <div class="modal-footer flex-center">
+                            <button type="submit" class="btn btn-primary">Continue</button>
+                        </div>
+                    </form>
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <!--End Modal-->
+    </div>
+    </div>
+    <!-- End Confirmation -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <nav class="navbar navbar mt-3" id="footer-bar">
+                <p class="nav-link" id="reserved">
+                    2020 Zwallet. All right reserved.
+                </p>
+
+                <p class="nav-link ml-auto contact1 bottom-footer contact1">
+                    +62 5637 8882 9901
+                </p>
+
+                <p class="nav-link contact1 bottom-footer contact1">
+                    contact@zwallet.com
+                </p>
+            </nav>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- End Search -->
+
+    <!-- Script JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
